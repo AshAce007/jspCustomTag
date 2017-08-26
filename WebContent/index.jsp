@@ -13,9 +13,9 @@
 	<% String str = "such a nice day"; %>
 	<% out.println("our test case string is : "+str);  %>
 	
-	reverse value is : <customTag:str operation="reverse"><%= str %></customTag:str><br/>
+	<br/>reverse value is : <customTag:str operation="reverse"><%= str %></customTag:str><br/>
 	length is : <customTag:str operation="length"><%= str %></customTag:str><br/>
 	upper case is : <customTag:str operation="uppercase"><%= str %></customTag:str><br/>
-	substring from 5 to 8 is : <customTag:str operation="substring" lower="0" upper="4"><%= str %></customTag:str>
+	substring from 5 to 8 is : <customTag:str operation="substring" lower="4" upper="0"><%= str %></customTag:str>
 </body>
 </html>
